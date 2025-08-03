@@ -70,11 +70,11 @@ int main(){
   int r,c ;
   cout << "Enter no. of rows" << endl;
   cin >>r  ;
-  // cout << "Enter no. of columns" << endl;
-  // cin >>c  ;
+  cout << "Enter no. of columns" << endl;
+  cin >>c  ;
 
-  // cout << "Enter no. of rows" << r<< endl  ;
-  // cout << "Enter no. of columns" << c << endl;
+  cout << "Enter no. of rows" << r<< endl  ;
+  cout << "Enter no. of columns" << c << endl;
 
   print7(r);
   return 0 ;
