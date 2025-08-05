@@ -5,7 +5,7 @@ using namespace std ;
 
 
 vector<vector<int>> countFreq(vector<int>& arr) {
-  unordered_map<long long, int > mpp ;//pre-computing
+  unordered_map<int, int > mpp ;//pre-computing
   for(int num : arr){
     mpp[ num]++ ;
   }
