@@ -3,7 +3,7 @@
 #include<unordered_map>
 using namespace std ;
 
-
+// Count the frequency of the element in the array given by the user
 vector<vector<int>> countFreq(vector<int>& arr) {
   unordered_map<int, int > mpp ;//pre-computing
   for(int num : arr){
