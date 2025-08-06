@@ -16,7 +16,7 @@ vector<vector<int>> countFreq(vector<int>& arr) {
     result.push_back( { pair.first, pair.second} ) ;
   }
   return result ;
-  }
+}
 
 
 int main(){
