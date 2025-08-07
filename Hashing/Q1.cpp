@@ -12,8 +12,8 @@ vector<vector<int>> countFreq(vector<int>& arr) {
 
   //fetching
   vector< vector<int> > result ;
-  for(auto& pair : mpp){
-    result.push_back( { pair.first, pair.second} ) ;
+  for(auto& it : mpp){
+    result.push_back( { it.first, it.second} ) ;
   }
   return result ;
 }
